@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is a registration-login api with the help of express,mongoose and other stuff.",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
