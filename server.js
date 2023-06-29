@@ -30,6 +30,7 @@ mongoose.connect(DB)
 
 /* DEFAULT ROUTE */
 app.get('/', (req, res) => {
+  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
   res.status(200).json({ message: "Welcome to the Authentication API." });
 });
 
